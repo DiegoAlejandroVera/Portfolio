@@ -15,17 +15,17 @@ const Main = () => {
     {
       name: "Get That Home API",
       icon: <FontAwesomeIcon icon={faShuffle} />,
-      href: "",
+      href: "https://github.com/miricuriel/c11-team3-projectGetHome-API",
     },
     {
       name: "Eatable",
       icon: <FontAwesomeIcon icon={faUtensilSpoon} />,
-      href: "",
+      href: "https://github.com/DiegoAlejandroVera/Eatable",
     },
     {
       name: "Notes API",
       icon: <FontAwesomeIcon icon={faDiagramProject} />,
-      href: "",
+      href: "https://github.com/DiegoAlejandroVera/prisma-express-api",
     },
   ];
 
@@ -56,8 +56,8 @@ const Main = () => {
           </h2>
           <p className="text-base sm:text-lg md:text-xl">
             My <span className="poppins text-violet-400">favorite tech</span>{" "}
-            includes JavaScript (React), TailwindCSS, Ruby on Rails, PostgreSQL
-            and I'm currently learning TypeScript and GoLang!
+            includes JavaScript (React), TailwindCSS, NodeJs, PostgreSQL and I'm
+            currently learning TypeScript, Prisma and GoLang!
           </p>
           <a
             href="mailto:diegoverat1796@outlook.com"
@@ -90,38 +90,38 @@ const Main = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
           <Step step={steps[0]}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum modi
-              perferendis tempore ratione, vel soluta.
+              GetThatHome API, built on Ruby on Rails with a PostgreSQL
+              database, streamlines property searches for both sale and rental
+              listings.
               <strong className="text-violet-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
-                eos!
+                With secure authentication using bcrypt
               </strong>{" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-              voluptas!
+              , users can confidently access the platform to find their ideal
+              homes hassle-free.
             </p>
           </Step>
           <Step step={steps[1]}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum modi
-              perferendis tempore ratione, vel soluta.
+              "Eatable" is a ReactJS-based restaurant menu app featuring
+              detailed listings of dishes, including prices and ingredients.
               <strong className="text-violet-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
-                eos!
+                Users can contribute new dishes to explore traditional cuisines
+                from different countries
               </strong>{" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-              voluptas!
+              , leveraging external data sources for a rich culinary experience.
             </p>
           </Step>
           <Step step={steps[2]}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum modi
-              perferendis tempore ratione, vel soluta.
+              Crafted with Node.js and Express, the Note API harnesses the power
+              of Prisma for seamless database operations. With bcrypt ensuring
+              robust password encryption and JWT for streamlined authentication
+              and authorization,{" "}
               <strong className="text-violet-400">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
-                eos!
+                users can securely store both essential and casual notes
               </strong>{" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-              voluptas!
+              . It offers a sophisticated solution for organizing personal
+              information with ease and elegance.
             </p>
           </Step>
         </div>
